@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+header{
+    background-color: brown;
+    padding: 20px 0;
+    height: 266px;
+    width: 100%;
+}
+
+
+.img{
+    width: 20%;
+    margin-left: 40%;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px; /* tiene  4 parametros: arri- der- abaj - izq  */
+}
+
+nav ul{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+nav a{
+    text-transform: uppercase;/*poner en mayuscula el texto*/
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /*Quitar el las lienas que realiza el hipervinculo*/
+}
+
+nav a:hover{
+    background-color: goldenrod;
+}
+
+/*Parte media */
+
+main{
+    width: 80%;
+    margin-left: 125px;
+}
+
+#lema{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    background: #123441;
+    color: white;
+}
+
+
+main h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 15px 20px;
+    text-transform: uppercase;
+}
+
+main p{
+    font-size: 17px;
+    font-family: Arial;
+    margin: 20px 20px;
+}
+
+.historia{
+    text-align: end;
+}
+
+.ubicacion{
+   text-align: center;
+}
+
+#mapa{
+    padding: 20px;
+}
+
+/*Parte final*/
+footer{
+    text-align: center;
+    background: url(/assets/img/bg.jpg);
+    padding: 40px;
+}
+
+#pie-pag{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:400px) {
+    body{
+        background: red;
+    }
+}

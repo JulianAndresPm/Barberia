@@ -1,0 +1,44 @@
+.productos{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid  black; /*tiene 3 parametros: anchura, tipo, color*/
+    border-radius: 15px;
+}
+
+
+.productos li:hover{
+    border-color: goldenrod;
+}
+
+.productos li:active{ /* active: es el elemnto activo (al dar click)*/
+    border-color: darkgreen;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{ /*Cuando el mouse este encima de los li: afectar los h2*/
+    font-size: 33px;
+}
+
+.descripcion{
+    font-size: 18px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
